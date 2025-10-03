@@ -13,7 +13,7 @@ description: >-
   Blog cá nhân chia sẻ ghi chép kỹ thuật và dự án về AI, Robotics, và nông nghiệp thông minh.
 
 # Với repo user-site <username>.github.io thì:
-url: "https://lionelphung.github.io"
+url: "https://phungtrinhuet.github.io"
 
 # Không dùng baseurl cho user-site
 baseurl: ""   # <— Quan trọng

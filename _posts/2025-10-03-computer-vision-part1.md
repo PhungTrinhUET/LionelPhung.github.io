@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Chương 1: Nền tảng của Mạng Nơ-ron Nhân tạo"
-date: 2025-10-04 09:00 +0700
+date: 2025-10-03 09:00 +0700
 categories: [Deep Learning, Notes]
 tags: [ANN, PyTorch, Feedforward, BackPropagation]
 permalink: /posts/chuong-1-ann/

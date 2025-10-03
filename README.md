@@ -1,43 +1,43 @@
-# Chirpy Starter
+# 🌐 Phùng Trường Trinh Blog
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-online-brightgreen)](https://phungtrinhuet.github.io)
+[![Last Commit](https://img.shields.io/github/last-commit/phungtrinhuet/phungtrinhuet.github.io)](https://github.com/phungtrinhuet/phungtrinhuet.github.io/commits/main)
+[![License](https://img.shields.io/github/license/phungtrinhuet/phungtrinhuet.github.io)](LICENSE)
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+🚀 Đây là source code của **blog cá nhân** mình xây dựng bằng [Jekyll Chirpy Theme](https://github.com/cotes2020/jekyll-theme-chirpy).  
+👉 Truy cập blog tại: **[https://phungtrinhuet.github.io](https://phungtrinhuet.github.io)**
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+---
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+## 📖 Nội dung blog
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
+Blog chia sẻ các blog, ghi chép, nghiên cứu và dự án trong quá trình **Học thuật & Ghi chú nghiên cứu** của mình.
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+Mục tiêu: lưu giữ và chia sẻ kiến thức, đồng thời kết nối với cộng đồng nghiên cứu – phát triển công nghệ.
 
-## Usage
+---
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+## 🛠 Công nghệ sử dụng
 
-## Contributing
+- [Jekyll](https://jekyllrb.com/)  
+- [Chirpy Theme](https://github.com/cotes2020/jekyll-theme-chirpy)  
+- [GitHub Actions](https://docs.github.com/en/actions) (CI/CD tự động build & deploy)  
+- Markdown để viết bài nhanh, gọn, tiện
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+---
 
-## License
+## 🚩 Cách chạy local
 
-This work is published under [MIT][mit] License.
+Nếu bạn muốn clone repo và chạy blog này trên máy cá nhân:
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+```bash
+# Clone repo
+git clone https://github.com/phungtrinhuet/phungtrinhuet.github.io
+cd phungtrinhuet.github.io
+
+# Cài Ruby & Bundler
+bundle install
+
+# Chạy local
+bundle exec jekyll serve
+# Mở http://127.0.0.1:4000

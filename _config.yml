@@ -7,8 +7,8 @@ lang: vi
 timezone: Asia/Ho_Chi_Minh
 
 # jekyll-seo-tag
-title: Trinh Phung
-tagline: Ghi chép AI • Robotics • AgriTech
+title: Lionel Phung Blog
+tagline: Even shadows need light
 description: >-
   Blog cá nhân chia sẻ ghi chép kỹ thuật và dự án về AI, Robotics, và nông nghiệp thông minh.
 
@@ -26,9 +26,9 @@ twitter:
 
 social:
   name: Phùng Trường Trinh
-  email: your@email.com
+  email: phungtruongtrinhuet@gmail.com
   links:
-    - https://github.com/lionelphung
+    - https://github.com/PhungTrinhUET
     # - https://www.linkedin.com/in/...
 
 webmaster_verifications:

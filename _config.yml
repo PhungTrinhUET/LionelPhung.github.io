@@ -63,8 +63,8 @@ pageviews:
 theme_mode:
 
 cdn:
-avatar: /assets/img/avatar.jpg
-social_preview_image: /assets/img/avatar.jpg
+avatar: /assets/img/avatar1.jpg
+social_preview_image: /assets/img/avatar1.jpg
 toc: true
 
 comments:
